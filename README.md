@@ -58,7 +58,11 @@ Tableau Dashboard:https://public.tableau.com/app/profile/vladyslav.hordiienko745
 
 ## [SQL Helper](https://github.com/vladyslav-hordienko/SQL_Helper)
 
-Developed a Python-based SQL learning tool for practicing, validating, and troubleshooting SQL queries in a safe local environment. The project includes a synthetic SQLite sales database with customers, orders, products, payments, refunds, and employees to simulate realistic analytics tasks. I implemented SQL parsing and validation with SQLGlot, added read-only query execution for SELECT and WITH statements, and blocked destructive SQL commands to keep the app safe for practice. The web interface allows users to write SQL, view formatted queries, check validation messages, and preview query results. I also added practice tasks, trainer hints for common SQL concepts such as GROUP BY, COUNT, SUM, AVG, JOIN, and filtering, plus an optional OpenAI-powered AI tutor through a backend API with API keys handled through environment variables. The project was prepared as a GitHub-safe portfolio version with documentation, .gitignore, and no secrets, real data, or local environment files.
+Developed a Python-based SQL learning tool for practising, validating, and troubleshooting SQL queries in a safe local environment. The project uses a synthetic SQLite sales database covering customers, orders, products, payments, refunds, and employees to simulate realistic analytics tasks.
+
+Implemented SQL parsing and validation with SQLGlot, read-only execution for SELECT and WITH queries, and safeguards that block destructive SQL commands. The web interface allows users to write and format queries, review validation feedback, and preview results.
+
+Added structured practice tasks, trainer hints for common SQL concepts including GROUP BY, COUNT, SUM, AVG, JOIN, and filtering, as well as an optional OpenAI-powered AI tutor connected through a backend API. API credentials are handled securely through environment variables, and the repository contains no secrets, real data, or local environment files.
 
 **Tech stack:** Python, SQLite, SQLGlot, OpenAI API, HTML, CSS, JavaScript
 
