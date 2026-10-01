@@ -54,7 +54,7 @@ Tableau Dashboard:https://public.tableau.com/app/profile/vladyslav.hordiienko745
 
 
 ---
-##AI Project
+# AI Project
 
 ## [SQL Helper](https://github.com/vladyslav-hordienko/SQL_Helper)
 
